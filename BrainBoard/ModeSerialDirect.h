@@ -8,8 +8,6 @@
 #ifndef MODE_SERIAL_DIRECT_H
 #define MODE_SERIAL_DIRECT_H
 
-#include <Serial.h>
-
 class ModeSerialDirect {
   public:
     ModeSerialDirect();
@@ -18,7 +16,7 @@ class ModeSerialDirect {
 
    private:
      const static int BPS = 57600;
-     char serialBuf[10];
+     unsigned char serialBuf[10];
 };
 
 #endif

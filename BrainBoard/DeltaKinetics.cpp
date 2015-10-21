@@ -29,7 +29,7 @@ void DeltaKinetics::begin() {
   phi[2] = 127;
 }
 
-void DeltaKinetics::compute( float x, float y, float z ){
+void DeltaKinetics::compute( byte x, byte y, byte z ){
   xg = map(x, 0, 255, -2000, 2000)/1000.0;
   yg = map(y, 0, 255, -2000, 2000)/1000.0;
   zg = map(z, 0, 255, zMin*1000, zMax*1000)/1000.0;

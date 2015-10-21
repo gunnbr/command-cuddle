@@ -7,8 +7,6 @@
 #ifndef MODE_SERIAL_XYZ_H
 #define MODE_SERIAL_XYZ_H
 
-#include <Serial.h>
-
 class ModeSerialXYZ {
   public:
     ModeSerialXYZ();

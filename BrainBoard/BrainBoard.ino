@@ -19,11 +19,12 @@
      5 =   D/U/D/U  =   Caffeinated Mode
      6 =   D/U/U/D  =   Sad Mode
      7 =   D/U/U/U  =   ** No mode ** <== Write your own!
+     8 =   U/D/D/D  =   Serial Direct mode - use with caution
+     9+=   U/X/X/X  =   Serial XYZ mode
  */
  
 #define MAINFILE
 
-#include <Serial.h>
 #include <Servo.h>
 #include "BrainBoard.h"
 

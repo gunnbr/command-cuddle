@@ -6,7 +6,7 @@
     #define EXTERN extern
 #endif
 
-//#define REV_D
+#define REV_D
 
 #include "DeltaBrain.h"
 #include "DeltaServos.h"

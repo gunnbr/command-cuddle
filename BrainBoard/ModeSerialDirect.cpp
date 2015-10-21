@@ -5,7 +5,6 @@
  */
 #include "ModeSerialDirect.h"
 #include "BrainBoard.h"
-#include "Serial.h"
 
 ModeSerialDirect::ModeSerialDirect() {}
 

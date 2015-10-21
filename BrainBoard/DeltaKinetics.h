@@ -5,12 +5,14 @@
 #ifndef DELTA_KINETICS_H
 #define DELTA_KINETICS_H
 
+typedef unsigned char byte;
+
 class DeltaKinetics {
    
    public:
      DeltaKinetics();
      void begin();
-     void compute(float x, float y, float z);
+     void compute(byte x, byte y, byte z);
      float * get();
      void printData();
 
